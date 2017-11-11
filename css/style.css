@@ -347,7 +347,7 @@ h1 span{
 }
 
 .about-us p.title{
-  color: #a4a4a4;
+  color: black;
   margin:40px auto;
   width:300px;
   line-height:26px;
@@ -394,23 +394,13 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/illustration.png) white no-repeat center center;
+  background: url(../img/icons/illustration.png) white no-repeat center;
   background-size: 200px;
+  background-position: center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
   width: 100px;
-  cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
-
 }
 
 .about-us .column-two{
@@ -426,24 +416,13 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/web.png) white no-repeat center center;
+  background: url(../img/icons/web.png) white no-repeat center;
   background-size: 200px;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
   width: 100px;
-    cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
 }
-
-.about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
-}
-
 
 .about-us .column-three{
   margin-top:40px;
@@ -458,25 +437,14 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/animation.png) white no-repeat center center;
+  background: url(../img/icons/animation.png) white no-repeat center;
   background-size: 200px;
+  background-position: center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
   width: 100px;
-  cursor:pointer;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
 }
-
-.about-us .column-three .circle-three:hover{
-  border:2px solid #ada074;
-}
-
-
 
 /* Portfolio */
 
@@ -714,8 +682,16 @@ h1 span{
   height: 65px;
   vertical-align: middle;
 
-
 }
+
+.contact h2{
+  width: fit-content;
+  margin: 0 auto;
+  font-family: inherit;
+  font-size:50px;
+  padding-bottom:40px;
+}
+
 
 strong{
   font-weight:700;
@@ -741,32 +717,6 @@ strong{
   padding-top:50px;
 
 }
-
-.footer .menu-footer{
-  width:80%;
-  text-align:center;
-  margin:0 auto;
-  padding-top:30px;
-  overflow: hidden;
-  position:relative;
-}
-
-
-.footer .menu-footer a{
-  line-height:46px;
-  padding:10px;
-  color:#a4a4a4;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.footer .menu-footer a:hover{
-  color:#ada074;
-}
-
 
 .footer .copyright{
   width:80%;
