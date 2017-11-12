@@ -144,7 +144,7 @@ h1 span{
   position:relative;
   width:100%;
   height:70px;
-  color:#333333;
+  color:#f2995d;
   font-size:18px;
   text-align:center;
   line-height:70px;
@@ -158,7 +158,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#f2995d;
  }
 
 
@@ -213,11 +213,11 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:white;
+  color:#f2995d;
 }
 
 .menu-content li a:hover{
-  color:#FBE9AA;
+  color:#f2995d;
 }
 
 
@@ -296,7 +296,7 @@ h1 span{
   margin:0 auto;
   border:2px solid #f0f0f0;
   background: url(../img/icons/illustration.png) white no-repeat center;
-  background-size: 200px;
+  background-size: 100px;
   background-position: center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
@@ -318,7 +318,7 @@ h1 span{
   margin:0 auto;
   border:2px solid #f0f0f0;
   background: url(../img/icons/web.png) white no-repeat center;
-  background-size: 200px;
+  background-size: 100px;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -339,7 +339,7 @@ h1 span{
   margin:0 auto;
   border:2px solid #f0f0f0;
   background: url(../img/icons/animation.png) white no-repeat center;
-  background-size: 200px;
+  background-size: 100px;
   background-position: center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
@@ -441,7 +441,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgba(173,160,116,1);
+  background: black (173,160,116,1);
   z-index: 2;
   opacity:0;
     -webkit-transition: all 0.6s ease-in;
@@ -459,7 +459,7 @@ h1 span{
   position: absolute;
   width: 285px;
   height:100%;
-  background: rgba(173,160,116,0.5);
+  background:black(173,160,116,0.5);
   z-index: 2;
   opacity:0;
   -webkit-transition: all 0.6s ease-in;
@@ -480,7 +480,7 @@ h1 span{
   margin-top:40px;
   font-weight: bold;
   letter-spacing:1px;
-  color: #FFF;
+  color: white;
 }
 
 .grid p.description {
@@ -490,54 +490,12 @@ h1 span{
   text-align:center;
   line-height:20px;
   font-weight: 400;
-  color: #FFF;
+  color: white;
   position:relative;
 }
 
 .clear {
     clear:both;
-}
-
-/* Partners */
-
-.partners{
-  position:relative;
-  width:100%;
-  z-index:10;
-  height:400px;
-  background:#D8C095 0px 0px fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-.partners .content{
-  position:absolute;
-  width:900px;
-  height:190px;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
-
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
-
-.partners .logo img{
-  height:160px;
-  width:280px;
-  margin: 0 auto;
-  display: block;
 }
 
 
